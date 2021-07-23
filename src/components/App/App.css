@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Prosto+One&display=swap');
+
+.wrap {
+  margin: auto;
+  width: 300px;
+}
+
+.wrap__InputItem{
+  font-family: "Prosto One";
+  font-size: 12px;
+  width: 300px;
+}
+
+.wrap__title {
+  font-family: "Prosto One";
+}
+
+.wrap__ItemList {
+  font-family: "Prosto One";
+}
+
+.wrap__Footer {
+  font-family: "Prosto One";
+  font-size: 12px;
+}
