@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+body {
+  background-color: #cdd4be;
+}
+
+.wrap {
+  margin: auto;
+  padding: 3%;
+  width: 1000px;
+  display: flex;
+  flex-direction: row;
+}
+
+.sidebar {
+  width: 11%;
+  padding: 5px;
+  /*box-shadow: -8px -8px 20px #2a333d, 10px 7px 20px #475462;*/
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+}
+
+.content {
+  width: 89%;
+  padding: 40px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.link {
+  text-decoration: none;
+  cursor: pointer;
+  color: #000;
+}
+
+.InputBox {
+  width: 100%;
+  position: relative;
+}
+
+.Input {
+  display: flex;
+  align-items: flex-end;
+}
+
+.InputItem{
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-size: 12px;
+  width: 96%;
+}
+
+.Error {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  position: absolute;
+  padding-top: 5px;
+  color: #f62727;
+}
+
+.InputButton{
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-size: 12px;
+  width: 12%;
+}
+
+.title {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  margin: 0 0 16px 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+.ItemList {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  padding: 2% 0 1% 0;
+}
+
+.delete {
+  justify-content: space-between;
+  flex: 100;
+}
+
+.Footer {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.done {
+  color: #8c8888;
+  text-decoration: line-through;
+}
+
+.repoList {
+  display: flex;
+  justify-content: space-between;
+  width: 48%;
+  border-bottom: 1px outset;
+  padding: 0 0 5px 10px;
+}
+
+.repoLinks {
+  text-decoration: none;
+  color: #000;
+  padding: 1% 7% 1% 5%;
+  display: inline-block;
+}
